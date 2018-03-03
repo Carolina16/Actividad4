@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background: green;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+section>nav:nth-child(1){
+    position: relative;
+    background:black;
+    width: 200px;
+    height: 200px;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+}
+section>nav:nth-child(2){
+    position: absolute;
+    background:black;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top:0;
+}
+section>nav:nth-child(3){
+    position: absolute;
+    background:black;
+    width: 200px;
+    height: 200px;
+    margin:  0 auto;
+    right: 0;
+    top: 0;
+}
+section>nav:nth-child(4){
+    position: absolute;
+    background: black;
+    width: 200px;
+    height: 200px;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+section>nav:nth-child(5){
+    position: absolute;
+    background: black;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+section>nav:nth-child(6){
+    position: absolute;
+    background: black;
+    width: 200px;
+    height: 200px;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+section>nav:nth-child(7){
+    position: absolute;
+    background: black;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    bottom: 0;
+    left:0;
+}
+section>nav:nth-child(8){
+    position: absolute;
+    background: black;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    bottom: 0;
+    right: 0;
+    left:0;
+}
+section>nav:nth-child(9){
+    position: absolute;
+    background: black;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    bottom: 0;
+    right:0;
+}
+
+
+section>nav:nth-child(1)>nav:nth-child(1),section>nav:nth-child(2)>nav:nth-child(1),section>nav:nth-child(3)>nav:nth-child(1),section>nav:nth-child(4)>nav:nth-child(1),section>nav:nth-child(5)>nav:nth-child(1),section>nav:nth-child(6)>nav:nth-child(1),section>nav:nth-child(7)>nav:nth-child(1),section>nav:nth-child(8)>nav:nth-child(1),section>nav:nth-child(9)>nav:nth-child(1){
+    position: absolute;
+    background:white;
+    width: 50px;
+    height: 50px;
+    margin:  0 auto;
+    top: 0;
+    bottom: 0;
+}
+
+section>nav:nth-child(1)>nav:nth-child(2),section>nav:nth-child(2)>nav:nth-child(2),section>nav:nth-child(3)>nav:nth-child(2),section>nav:nth-child(4)>nav:nth-child(2),section>nav:nth-child(5)>nav:nth-child(2),section>nav:nth-child(6)>nav:nth-child(2),section>nav:nth-child(7)>nav:nth-child(2),section>nav:nth-child(8)>nav:nth-child(2),section>nav:nth-child(9)>nav:nth-child(2){
+    position: absolute;
+    background:white;
+    width: 50px;
+    height: 50px;
+    margin:  auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+section>nav:nth-child(1)>nav:nth-child(3),section>nav:nth-child(2)>nav:nth-child(3),section>nav:nth-child(3)>nav:nth-child(3),section>nav:nth-child(4)>nav:nth-child(3),section>nav:nth-child(5)>nav:nth-child(3),section>nav:nth-child(6)>nav:nth-child(3),section>nav:nth-child(7)>nav:nth-child(3),section>nav:nth-child(8)>nav:nth-child(3),section>nav:nth-child(9)>nav:nth-child(3){
+    position: absolute;
+    background:white;
+    width: 50px;
+    height: 50px;
+    margin:  0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+section>nav:nth-child(1)>nav:nth-child(4),section>nav:nth-child(2)>nav:nth-child(4),section>nav:nth-child(3)>nav:nth-child(4),section>nav:nth-child(4)>nav:nth-child(4),section>nav:nth-child(5)>nav:nth-child(4),section>nav:nth-child(6)>nav:nth-child(4),section>nav:nth-child(7)>nav:nth-child(4),section>nav:nth-child(8)>nav:nth-child(4),section>nav:nth-child(9)>nav:nth-child(4){
+    position: absolute;
+    background:white;
+    width: 50px;
+    height: 50px;
+    margin:  auto 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+section>nav:nth-child(1)>nav:nth-child(5),section>nav:nth-child(2)>nav:nth-child(5),section>nav:nth-child(3)>nav:nth-child(5),section>nav:nth-child(4)>nav:nth-child(5),section>nav:nth-child(5)>nav:nth-child(5),section>nav:nth-child(6)>nav:nth-child(5),section>nav:nth-child(7)>nav:nth-child(5),section>nav:nth-child(8)>nav:nth-child(5),section>nav:nth-child(9)>nav:nth-child(5){
+    position: absolute;
+    background: white;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+section>nav:nth-child(1)>nav:nth-child(6),section>nav:nth-child(2)>nav:nth-child(6),section>nav:nth-child(3)>nav:nth-child(6),section>nav:nth-child(4)>nav:nth-child(6),section>nav:nth-child(5)>nav:nth-child(6),section>nav:nth-child(6)>nav:nth-child(6),section>nav:nth-child(7)>nav:nth-child(6),section>nav:nth-child(8)>nav:nth-child(6),section>nav:nth-child(9)>nav:nth-child(6){
+    position: absolute;
+    background: white;
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+section>nav:nth-child(1)>nav:nth-child(7),section>nav:nth-child(2)>nav:nth-child(7),section>nav:nth-child(3)>nav:nth-child(7),section>nav:nth-child(4)>nav:nth-child(7),section>nav:nth-child(5)>nav:nth-child(7),section>nav:nth-child(6)>nav:nth-child(7),section>nav:nth-child(7)>nav:nth-child(7),section>nav:nth-child(8)>nav:nth-child(7),section>nav:nth-child(9)>nav:nth-child(7){
+    position: absolute;
+    background: white;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    bottom: 0;
+    left:0;
+}
+section>nav:nth-child(1)>nav:nth-child(8),section>nav:nth-child(2)>nav:nth-child(8),section>nav:nth-child(3)>nav:nth-child(8),section>nav:nth-child(4)>nav:nth-child(8),section>nav:nth-child(5)>nav:nth-child(8),section>nav:nth-child(6)>nav:nth-child(8),section>nav:nth-child(7)>nav:nth-child(8),section>nav:nth-child(8)>nav:nth-child(8),section>nav:nth-child(9)>nav:nth-child(8){
+    position: absolute;
+    background: white;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    bottom: 0;
+    right: 0;
+    left:0;
+}
+section>nav:nth-child(1)>nav:nth-child(9),section>nav:nth-child(2)>nav:nth-child(9),section>nav:nth-child(3)>nav:nth-child(9),section>nav:nth-child(4)>nav:nth-child(9),section>nav:nth-child(5)>nav:nth-child(9),section>nav:nth-child(6)>nav:nth-child(9),section>nav:nth-child(7)>nav:nth-child(9),section>nav:nth-child(8)>nav:nth-child(9),section>nav:nth-child(9)>nav:nth-child(9){
+    position: absolute;
+    background: white;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    bottom: 0;
+    right:0;
+}
